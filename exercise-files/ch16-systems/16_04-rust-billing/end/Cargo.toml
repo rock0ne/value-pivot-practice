@@ -1,0 +1,10 @@
+[package]
+name = "billing"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# The control: keep overflow checks on in release builds too.
+[profile.release]
+overflow-checks = true

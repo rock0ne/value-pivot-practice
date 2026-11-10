@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chapter 12 SQL exercises</title>
+<link rel="stylesheet" href="../shared/style.css">
+</head>
+<body>
+<main>
+<p class="muted"><a href="../index.html">Value Pivot exercise files</a></p>
+<h1>Chapter 12. SQL: where the money lives</h1>
+<p>Harbour Lane Physiotherapy's booking database runs right here in your browser, with every client and booking from the chapter. Each exercise starts from the query the AI assistant wrote, or from a first step. Change it, press <strong>Run</strong> to see the result, then <strong>Check my answer</strong>.</p>
+<p class="warn">Do the exercise in the book first, then come here to try it. The answers are one click away, so only open them when you've finished or you're truly stuck.</p>
+<p id="status" class="muted" role="status">Loading the database...</p>
+<div id="exercises"></div>
+<p class="muted">The same queries are in the <code>begin</code> and <code>end</code> folders, if you'd rather use the SQLite shell (<code>python -m sqlite3 clinic.db</code> from Chapter 12's <code>project</code> folder) or a database browser. The SQL engine is a pinned copy of sql.js 1.15.2 (MIT licence), kept in <code>shared/vendor</code>. Nothing on this page is sent anywhere.</p>
+</main>
+<script src="../shared/vendor/sqljs-1.15.2/sql-wasm-inline.js"></script>
+<script src="data.js"></script>
+<script src="exercises.js"></script>
+<script src="../shared/sql-exercises.js"></script>
+</body>
+</html>

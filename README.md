@@ -12,6 +12,13 @@ This code has deliberate faults in it. That's the point: each chapter shows you 
 
 Chapter 15 has a clean-up script that deletes files. **Never run `ch15-infra/project/clean_build.sh` with the real `rm`.** The chapter shows it with a stand-in, `project/fakebin/rm`, that only prints what it would have deleted.
 
+## Exercise files
+
+The `exercise-files` folder lets you try each chapter's fixes yourself, like a course's exercise files. Open `exercise-files/index.html` in your browser to start:
+
+- **Chapters 12 and 13** run in your browser: the SQL booking database and the JavaScript tests run inside the page, with nothing to install.
+- **The other chapters** have a `begin` folder to work on, an `end` folder with one possible answer, and a checker: run `python check.py` in the chapter's folder, and it tells you what passes and writes a results page.
+
 ## What's in each chapter
 
 | Folder | Chapter | You'll need |

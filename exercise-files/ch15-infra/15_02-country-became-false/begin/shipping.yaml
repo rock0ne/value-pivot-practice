@@ -1,0 +1,10 @@
+# Countries we ship to (Pennant Print Works, fictional). Added by the AI assistant
+# when the Nordic launch was requested.
+ship_to:
+  - GB
+  - IE
+  - FR
+  - DE
+  - NO
+  - SE
+  - DK

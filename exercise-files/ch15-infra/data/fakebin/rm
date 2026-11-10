@@ -1,0 +1,18 @@
+#!/bin/sh
+# A stand-in for rm that deletes nothing. It reports what it was asked to delete:
+# the targets inside the build folder, or, for anything else, how many top-level
+# paths it was given and whether /etc and /home were among them.
+n=0; top=0; etc=no; home=no
+for a in "$@"; do
+  case "$a" in -*) continue ;; esac
+  n=$((n+1))
+  case "$a" in
+    /srv/pennant/builds/*) printf 'WOULD DELETE: %s\n' "$a" ;;
+    /etc) etc=yes; top=$((top+1)) ;;
+    /home) home=yes; top=$((top+1)) ;;
+    /*/*) printf 'WOULD DELETE: %s\n' "$a" ;;
+    /*) top=$((top+1)) ;;
+  esac
+done
+[ "$top" -gt 0 ] && printf 'WOULD DELETE: %s top-level paths of the whole filesystem, including /etc=%s /home=%s\n' "$top" "$etc" "$home"
+exit 0
