@@ -1,0 +1,9 @@
+member_id,name,email,type,expires,email_opt_out
+P1,Expires today,p1@example.org,adult,01/12/2026,
+P2,Expires in 30 days,p2@example.org,adult,31/12/2026,
+P3,Expires in 31 days,p3@example.org,adult,01/01/2027,
+P4,Expired yesterday,p4@example.org,adult,30/11/2026,
+P5,Life member,p5@example.org,life,,
+P6,Opted out (Yes),p6@example.org,adult,15/12/2026,Yes
+P7,Opted out (yes),p7@example.org,adult,15/12/2026,yes
+P8,Normal member,p8@example.org,adult,15/12/2026,

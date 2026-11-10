@@ -1,0 +1,7 @@
+Elmfield Tennis Club: figures from the membership system, 1 December 2026
+
+Memberships expiring in December 2026: 44
+  of which opted out of email: 6
+Memberships that lapsed between 17 and 30 November 2026: 11
+Life members (no expiry date): 9
+Total members on the system: 412

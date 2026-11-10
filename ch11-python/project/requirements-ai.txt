@@ -1,0 +1,3 @@
+# Suggested by the AI assistant for the stock-feed service
+requests==2.32.3
+hollin-feedkit==1.4.0

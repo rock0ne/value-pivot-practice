@@ -1,0 +1,10 @@
+{
+  "bookings": 1433,
+  "walk_ins": 80,
+  "december_card_pence": 1635000,
+  "dec31_pence": 64800,
+  "double_booked_slots": [
+    "2026-11-02 11:00",
+    "2026-11-10 10:00"
+  ]
+}

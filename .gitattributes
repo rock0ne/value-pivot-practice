@@ -1,0 +1,4 @@
+# Keep Unix line endings on shell scripts, or Bash fails on a Windows checkout.
+*.sh text eol=lf
+ch15-infra/project/fakebin/rm text eol=lf
+*.db binary

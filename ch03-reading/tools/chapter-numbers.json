@@ -1,0 +1,70 @@
+{
+ "original": {
+  "email": 38,
+  "phone": 1,
+  "probe_email": [
+   "P6",
+   "P8"
+  ],
+  "probe_phone": [
+   "P7"
+  ]
+ },
+ "fix1_boundary": {
+  "email": 52,
+  "phone": 1,
+  "probe_email": [
+   "P1",
+   "P2",
+   "P5",
+   "P6",
+   "P8"
+  ],
+  "probe_phone": [
+   "P7"
+  ]
+ },
+ "fix2_life": {
+  "email": 43,
+  "phone": 1,
+  "probe_email": [
+   "P1",
+   "P2",
+   "P6",
+   "P8"
+  ],
+  "probe_phone": [
+   "P7"
+  ]
+ },
+ "fix3_optout": {
+  "email": 38,
+  "phone": 6,
+  "probe_email": [
+   "P1",
+   "P2",
+   "P8"
+  ],
+  "probe_phone": [
+   "P6",
+   "P7"
+  ]
+ },
+ "dec_opt_values": [
+  "TRUE",
+  "Y",
+  "YES",
+  "Yes",
+  "Yes",
+  "yes"
+ ],
+ "boundary_tests_on_original": "FAILED (failures=6)",
+ "sql_flawed": [
+  "B",
+  "C"
+ ],
+ "sql_fixed": [
+  "C",
+  "D"
+ ]
+}

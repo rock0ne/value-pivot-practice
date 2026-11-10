@@ -1,0 +1,35 @@
+{
+  "bookings": 1433,
+  "walk_ins": 80,
+  "clients": 260,
+  "card_total": "16,350.00",
+  "december_bookings": 347,
+  "dec31_bookings": 14,
+  "dec31_value": "648.00",
+  "card_days": 22,
+  "ai_revenue": "15,702.00",
+  "ai_count": 333,
+  "revenue_gap": "648.00",
+  "ai_lapsed": 0,
+  "lapsed": 63,
+  "walk_ins_since_oct": 49,
+  "lapsed_with_only_cancelled_since": 6,
+  "clashes": [
+    [
+      "2026-11-02 11:00",
+      "1783, 1784"
+    ],
+    [
+      "2026-11-10 10:00",
+      "1836, 1837"
+    ]
+  ],
+  "agent_deleted": 4,
+  "agent_deleted_paid_value": "199.00",
+  "fixed_revenue": "16,350.00",
+  "fixed_count": 347,
+  "loyalty_ai_one": 183,
+  "loyalty_ai_zero": 0,
+  "loyalty_true_zero": 111,
+  "loyalty_true_one": 72
+}
